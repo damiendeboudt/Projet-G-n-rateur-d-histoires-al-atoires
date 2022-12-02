@@ -17,9 +17,9 @@ function generate () {
     history.innerHTML +=  userName.value + " et " + aleatName + " " + aleatVerbe + " " + aleatObjects + " " +
         aleatTemperature + " " + aleatWhere;
    const ligne = document.createElement("br");
-   history.appendChild(ligne)
+   history.appendChild(ligne);
 
 }
 
 
-buttonGenerate.addEventListener("click", generate)
+buttonGenerate.addEventListener("click", generate);
